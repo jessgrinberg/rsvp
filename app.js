@@ -13,7 +13,12 @@ form.addEventListener('submit', (e) => {
 	const checkbox = document.createElement('input');
 	checkbox.type = 'checkbox';
 	label.appendChild(checkbox);
-	li.appendChild(label)
+	li.appendChild(label);
+
+	const button = document.createElement('button');
+	button.textContent = 'remove';
+	li.appendChild(button);
+
 	ul.appendChild(li);
 });
 

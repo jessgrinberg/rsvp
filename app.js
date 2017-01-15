@@ -62,6 +62,7 @@ ul.addEventListener('click', (e) => {
 		 	input.value = span.textContent;
 		 	li.insertBefore(input, span);
 		 	li.removeChild(span);
+		 	button.textContent = 'save';
 		}
 	}
 });

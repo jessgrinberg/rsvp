@@ -53,6 +53,8 @@ ul.addEventListener('click', (e) => {
 			const li = e.target.parentNode;
 			const ul = li.parentNode;
 			ul.removeChild(li);
+		} else if (e.target.textContent === 'edit') {
+			console.log('edit')
 		}
 	}
 });
